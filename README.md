@@ -1,5 +1,5 @@
 # Plant Information Extractor 
-This is a Python script that extracts plant information using OpenAI GPT-4 and writes the information to a CSV file. The main function reads plant names from a file named plants.txt, retrieves their information using the GPT-4 engine, and writes the information to a CSV file named plant_info.csv. The script is easily adaptable for various purposes and can be extended to work with other objects or APIs.
+This is a Python script that extracts plant information using OpenAI text-davinci-002 and writes the information to a CSV file. The main function reads plant names from a file named plants.txt, retrieves their information using the GPT-4 engine, and writes the information to a CSV file named plant_info.csv. The script is easily adaptable for various purposes and can be extended to work with other objects or APIs.
 
 ## Requirements
 
