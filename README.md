@@ -13,9 +13,9 @@ This is a Python script that extracts plant information using OpenAI GPT-4 and w
 # Setup
 Install the required libraries using pip:
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 Obtain an API key from OpenAI and set the openai.api_key variable in the script to your API key.
 
 Set the openai.organization variable in the script to your organization ID.
@@ -25,9 +25,9 @@ Create a file named plants.txt and add plant names, one per line.
 
 Run the script:
 
-'''bash
+```bash
 python plant_info_extractor.py
-'''
+```
 
 The extracted plant information will be saved in a CSV file named plant_info.csv.
 
