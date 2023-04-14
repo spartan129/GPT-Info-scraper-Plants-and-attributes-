@@ -10,6 +10,11 @@ This is a Python script that extracts plant information using OpenAI GPT-4 and w
 -requests library
 -You can install the required libraries using the requirements.txt file:
 
+```requirements.txt
+openai==0.27.0
+requests==2.26.0
+```
+
 # Setup
 Install the required libraries using pip:
 
