@@ -10,6 +10,7 @@ openai==0.27.0
 requests==2.26.0
 Setup
 Install the required libraries using pip:
+bash
 Copy code
 pip install -r requirements.txt
 Obtain an API key from OpenAI and set the openai.api_key variable in the script to your API key.
@@ -21,6 +22,7 @@ Create a file named plants.txt and add plant names, one per line.
 
 Run the script:
 
+bash
 Copy code
 python plant_info_extractor.py
 The extracted plant information will be saved in a CSV file named plant_info.csv.
