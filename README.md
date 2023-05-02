@@ -1,23 +1,24 @@
 # Plant Information Extractor 
-This is a Python script that extracts plant information using OpenAI text-davinci-002 and writes the information to a CSV file. The main function reads plant names from a file named plants.txt, retrieves their information using the text-davinci-002 engine, and writes the information to a CSV file named plant_info.csv. The script is easily adaptable for various purposes and can be extended to work with other objects or APIs.
+This is a Python script that extracts plant information using OpenAI gpt-3.5-turbo and writes the information to a CSV file. The main function reads plant names from a file named plants.txt, retrieves their information using the text-davinci-002 engine, and writes the information to a CSV file named plant_info.csv. The script is easily adaptable for various purposes and can be extended to work with other objects or APIs.
 
 ## Requirements
 
--Python 3.6 or higher
--openai library
--requests library
-You can install the required libraries using pip
+- Python 3.7+
+- OpenAI Python package
+- Python-dotenv package
+- An OpenAI API key
 
 # requirements.txt
 ```
 openai==0.27.0
+python-dotenv==0.19.2
 requests==2.26.0
 ```
 
 ## Setup
 ### Install the required libraries using pip:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -25,12 +26,17 @@ Obtain an API key from OpenAI and set the openai.api_key variable in the script 
 
 Set the openai.organization variable in the script to your organization ID.
 
+Set up an environment file `.env` with the following content:
+```
+OPENAI_API_KEY=your_openai_api_key
+OPENAI_ORG_ID=your_openai_organization_id
+```
 ### Usage
 Create a file named plants.txt and add plant names, one per line.
 
 Run the script:
 
-```bash
+```
 python plant_info_extractor.py
 ```
 
